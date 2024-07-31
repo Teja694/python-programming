@@ -1,0 +1,7 @@
+num=input("enter the number:")
+m=num.split(",")
+b=list(map(int,m))
+print(b)
+length=len(b)
+print("first number is ",b[0])
+print("last number is ",b[length-1])
